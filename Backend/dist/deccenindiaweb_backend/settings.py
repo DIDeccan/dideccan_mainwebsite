@@ -75,6 +75,14 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'deccenindiaweb_backend.wsgi.application'
 CORS_ALLOW_ALL_ORIGINS = True
+CSRF_TRUSTED_ORIGINS = [
+    origin.strip()
+    for origin in os.getenv(
+        "CSRF_TRUSTED_ORIGINS",
+        "https://dideccanindia.com,https://www.dideccanindia.com",
+    ).split(",")
+    if origin.strip()
+]
 
 
 # Database

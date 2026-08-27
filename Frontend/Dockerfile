@@ -3,6 +3,9 @@ FROM node:20 as build
 WORKDIR /app
 COPY dist/ /app
 
+ARG REACT_APP_API_BASE_URL=https://dideccanindia.com
+ENV REACT_APP_API_BASE_URL=$REACT_APP_API_BASE_URL
+
 RUN npm install
 RUN npm run build
 

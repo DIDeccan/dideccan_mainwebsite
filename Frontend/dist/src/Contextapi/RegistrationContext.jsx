@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 import axios from "axios";
 import apiList from "../api.json";
 
-const BASE_URL = (process.env.REACT_APP_API_BASE_URL || "http://localhost:8000").replace(/\/$/, "");
+const BASE_URL = (process.env.REACT_APP_API_BASE_URL || "https://dideccanindia.com").replace(/\/$/, "");
 
 export const RegistrationContext = createContext();
 
@@ -49,7 +49,7 @@ export const RegistrationProvider = ({ children }) => {
         throw new Error(err.response.data.message || JSON.stringify(err.response.data));
       }
       if (err.request) {
-        throw new Error("No response from server. Start the backend on port 8000.");
+        throw new Error("No response from server.");
       }
       throw err;
     } finally {
