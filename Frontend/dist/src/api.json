@@ -1,6 +1,6 @@
 {
     "login": {
-        "register": "/register"
+        "register": "/api/register"
     },
-    "contact": "/contact"
+    "contact": "/api/contact"
 }
