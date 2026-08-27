@@ -1,0 +1,28 @@
+.faq-page {
+  background: var(--soft);
+}
+
+.faq-page .section {
+  padding-top: 8px;
+  padding-bottom: 72px;
+}
+
+.faq-page .legal-page {
+  margin: 0 auto 8px;
+}
+
+.faq-item {
+  padding: 18px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.faq-item h2 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  letter-spacing: -0.03em;
+  margin-bottom: 8px;
+}
+
+.faq-item p {
+  color: var(--text-secondary);
+}

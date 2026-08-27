@@ -1,0 +1,159 @@
+.login-btn {
+  margin-left: 1rem;
+  padding: 1.8rem 1.8rem;
+  border: none;
+  background-color: #003f73;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: background 0.3s;
+  height: 35px;
+  margin-top: 30px;
+}
+.login-btn:hover {
+  background: #0056a0;
+}
+.error{
+  color:red;
+}
+.form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  overflow-y: auto; 
+}
+.form-content {
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 95%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
+  position: relative; 
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.login-form label {
+  font-weight: 500;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.login-form input,
+.login-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.register-btn {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #0056a0;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.register-btn:hover {
+  background-color: #003f73;
+}
+.close-btn {
+  color: red;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* RESPONSIVENESS */
+@media (max-width: 1024px) {
+  .form-content {
+    width: 40%;
+    padding: 30px;
+  }
+  .login-btn {
+    font-size: 1.2rem;
+    height: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .form-content {
+    width: 50%;
+    padding: 15px;
+  }
+  .login-btn {
+    font-size: 1.0rem;
+    padding: 1.2rem 1.2rem;
+  }
+  .register-btn {
+    font-size: 12px;
+    padding: 7px;
+  }
+  .login-form input,
+  .login-form select {
+    font-size: 12px;
+    padding: 7px;
+  }
+}
+@media (max-width: 500px) {
+  .form-content {
+    width: 70%;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  .login-btn {
+    width: 40%;
+    justify-content: center;
+    margin-left: 0;
+    font-size: 0.8rem;
+    height: 32px;
+  }
+  .register-btn {
+    width: 100%;
+    font-size: 12px;
+  }
+  .login-form label {
+    font-size: 11px;
+  }
+  .close-btn {
+    font-size: 15px;
+    top: 10px;
+    right: 10px;
+  }
+  .login-form input,
+  .login-form select {
+    font-size: 14px;
+    padding: 7px;
+  }
+}

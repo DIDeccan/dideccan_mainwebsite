@@ -1,0 +1,15 @@
+.terms-container {
+  font-family: var(--font-body);
+  color: var(--text);
+  background: #fff;
+}
+
+.terms-container h2,
+.terms-container h3 {
+  font-family: var(--font-display);
+  color: var(--text);
+}
+
+.terms-container a {
+  color: var(--primary);
+}

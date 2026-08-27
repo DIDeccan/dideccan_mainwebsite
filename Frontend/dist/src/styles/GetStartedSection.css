@@ -1,0 +1,78 @@
+.cta-section {
+  padding: 0 0 96px;
+  background: var(--soft);
+}
+
+.cta-card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 32px;
+  padding: 64px 56px;
+  border-radius: 28px;
+  color: #fff;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(34, 211, 238, 0.18), transparent 28%),
+    radial-gradient(circle at 88% 80%, rgba(217, 70, 239, 0.22), transparent 32%),
+    var(--grad-cta);
+}
+
+.cta-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(circle at 30% 40%, #000 20%, transparent 75%);
+  pointer-events: none;
+}
+
+.cta-copy,
+.cta-actions {
+  position: relative;
+  z-index: 1;
+}
+
+.cta-copy .section-kicker {
+  color: #c4b5fd;
+}
+
+.cta-copy h2 {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 4vw, 3.6rem);
+  letter-spacing: -0.045em;
+  line-height: 1.08;
+  margin-bottom: 12px;
+}
+
+.cta-copy h2 span {
+  display: block;
+}
+
+.cta-copy p {
+  color: rgba(226, 232, 240, 0.86);
+  max-width: 48ch;
+}
+
+.cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+@media (max-width: 860px) {
+  .cta-card {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 36px 24px;
+  }
+
+  .cta-actions {
+    justify-content: stretch;
+  }
+}

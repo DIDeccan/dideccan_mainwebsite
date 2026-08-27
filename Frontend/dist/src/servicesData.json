@@ -1,0 +1,131 @@
+[
+  {
+    "id": 1,
+    "title": "DevOps (AWS)",
+    "image": "Devops",
+    "align": "left",
+    "description": "Accelerate your business with DevOps solutions powered by AWS.",
+    "points": [
+      { "title": "Scalable Cloud Architecture", "text": "Future-ready infrastructure designed for high performance" },
+      { "title": "CI/CD Automation", "text": "Faster releases with seamless integration & delivery" },
+      { "title": "Infrastructure as Code (IaC)", "text": "Automated and consistent deployments" },
+      { "title": "24/7 Monitoring & Optimization", "text": "Real-time performance insights" },
+      { "title": "High Security & Compliance", "text": "Industry-best data protection" },
+      { "title": "Cost Optimization", "text": "Reduce cloud expenses efficiently" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Web & Mobile Development",
+    "image": "Webdevelopment",
+    "align": "right",
+    "description": "Build fast, responsive, and user-friendly applications.",
+    "points": [
+    { "title": "Modern Web Applications", "text": "Built with React.js for fast and responsive user experiences" },
+    { "title": "Mobile Apps", "text": "Cross-platform apps using React Native for Android and iOS" },
+    { "title": "Backend Development", "text": "Secure and scalable APIs using Python" },
+    { "title": "API Integration", "text": "Connect with third-party services and tools easily" },
+    { "title": "Cloud Deployment", "text": "Deploy and manage applications on cloud platforms" },
+    { "title": "Performance Optimization", "text": "Improved speed and smooth performance" }
+
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Software Testing",
+    "image": "Softwaretesting",
+    "align": "left",
+    "points": [
+    { "title": "Manual & Automated Testing", "text": "Ensure quality using both manual and automation testing" },
+    { "title": "Performance Testing", "text": "Check speed and stability under different loads" },
+    { "title": "Load Testing", "text": "Test how applications handle high user traffic" },
+    { "title": "Compatibility Testing", "text": "Ensure smooth performance across devices and browsers" },
+    { "title": "Security Testing", "text": "Identify vulnerabilities and protect user data" },
+    { "title": "Bug Tracking & Reporting", "text": "Detect, track, and fix issues efficiently" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "AI & Data Science",
+    "image": "Aidatascience",
+    "align": "right",
+    "points": [
+     { "title": "Machine Learning", "text": "Build smart models that learn from data" },
+     { "title": "Predictive Analytics", "text": "Analyze data to predict future trends" },
+     { "title": "Natural Language Processing", "text": "Work with text and human language data" },
+     { "title": "Data Visualization", "text": "Present data using clear and simple visuals" },
+     { "title": "Data Analysis", "text": "Understand patterns and insights from data" },
+     { "title": "AI Solutions", "text": "Develop intelligent systems for business needs" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Cybersecurity",
+    "image": "Cybersecurity",
+    "align": "left",
+    "points": [
+   { "title": "Network Security", "text": "Protect systems and networks from threats" },
+    { "title": "Application Security", "text": "Secure applications from vulnerabilities" },
+    { "title": "Threat Detection", "text": "Identify and respond to security risks" },
+    { "title": "Penetration Testing", "text": "Test systems to find security weaknesses" },
+    { "title": "Data Protection", "text": "Safeguard sensitive business and user data" },
+    { "title": "Compliance", "text": "Follow security standards and regulations" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "SAP All Modules",
+    "image": "SAP_NEW",
+    "align": "right",
+    "points": [
+      { "title": "SAP FICO", "text": "Manage finance and accounting processes" },
+      { "title": "SAP MM", "text": "Handle materials and inventory management" },
+      { "title": "SAP SD", "text": "Manage sales and distribution operations" },
+      { "title": "SAP PP", "text": "Support production planning processes" },
+      { "title": "SAP Implementation", "text": "Set up and configure SAP solutions" },
+      { "title": "SAP Support", "text": "Maintain and optimize SAP systems" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Medical Coding",
+    "image": "Medical_Coding",
+    "align": "left",
+    "points": [
+      { "title": "ICD-10 Coding", "text": "Assign accurate diagnosis codes" },
+      { "title": "CPT Coding", "text": "Code medical procedures and services" },
+      { "title": "HCPCS Coding", "text": "Handle healthcare service codes" },
+      { "title": "Medical Billing", "text": "Process billing and claims efficiently" },
+      { "title": "Insurance Processing", "text": "Manage claims and reimbursements" },
+      { "title": "Compliance", "text": "Follow healthcare coding standards" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "US Mortgage",
+    "image": "US_Mortgage",
+    "align": "right",
+    "points": [
+      { "title": "Loan Origination", "text": "Start and manage loan applications" },
+      { "title": "Loan Processing", "text": "Handle loan data and documentation" },
+      { "title": "Underwriting Support", "text": "Assist in loan approval decisions" },
+      { "title": "Document Verification", "text": "Verify customer and financial documents" },
+      { "title": "Compliance Check", "text": "Ensure process follows regulations" },
+      { "title": "Customer Support", "text": "Assist clients throughout the loan process" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "UK Mortgage",
+    "image": "UK_Mortgage",
+    "align": "left",
+    "points": [
+      { "title": "Mortgage Application Processing", "text": "Process and manage loan applications" },
+      { "title": "Document Verification", "text": "Verify customer and financial documents" },
+      { "title": "Affordability Assessment", "text": "Evaluate repayment capacity of applicants" },
+      { "title": "Credit Check", "text": "Review credit history and score" },
+      { "title": "Risk Analysis", "text": "Assess financial and lending risks" },
+      { "title": "Compliance", "text": "Ensure process meets regulations" }
+    ]
+  }
+]
